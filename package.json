@@ -1,0 +1,24 @@
+{
+  "name": "bistropulse",
+  "version": "1.0.0",
+  "description": "AI Omnichannel Marketing & Value Positioning Automation Hub for Local Independent Restaurants",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "server": "node server/index.js",
+    "client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build",
+    "test": "node server/test.js",
+    "dev": "node server/index.js"
+  },
+  "keywords": [
+    "restaurant-marketing",
+    "whatsapp-automation",
+    "instagram-marketing",
+    "meta-api",
+    "value-positioning",
+    "local-business"
+  ],
+  "author": "BistroPulse Team",
+  "license": "MIT"
+}
